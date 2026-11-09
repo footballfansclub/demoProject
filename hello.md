@@ -75,6 +75,7 @@ DemoProject/
 ├── types/
 │   └── .gitkeep            # Shared TypeScript types
 ├── hello.md                # This project specification
+├── README.md               # Short project entry point
 ├── next.config.ts          # Next.js configuration
 ├── tsconfig.json           # TypeScript configuration (strict)
 ├── next-env.d.ts           # Next.js TypeScript declarations
@@ -175,3 +176,4 @@ Each update also adds one row to the revision history: the date and what changed
 | --- | --- |
 | 2026-11-09 | Initial specification: Next.js App Router, TypeScript, Node.js, React, npm |
 | 2026-11-09 | Require this file to be updated on every future development and revision |
+| 2026-11-09 | Add README.md as the short project entry point |
