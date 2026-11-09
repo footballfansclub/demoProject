@@ -1,0 +1,26 @@
+---
+description: Update hello.md on every project development or revision
+alwaysApply: true
+---
+
+# Keep hello.md current
+
+`hello.md` is the living specification for DemoProject. Update it in the same change as any development or revision. Do not leave the doc behind the code.
+
+## Update hello.md when any of these change
+
+- Project overview, goals, or status
+- Tech stack, dependencies, or scripts
+- Folder layout, routing, or file conventions
+- Configuration, environment variables, or request flow
+- Features added, removed, or moved in or out of scope
+
+## How to update
+
+- Edit the affected sections so they match the project after the change.
+- Add one row to the revision history table: date and what changed.
+- Describe only what is true now. Remove steps, folders, and tools that no longer exist.
+
+```markdown
+| 2026-11-09 | Add app/settings route and document it under Project structure |
+```
